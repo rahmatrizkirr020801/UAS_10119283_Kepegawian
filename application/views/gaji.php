@@ -51,23 +51,23 @@
     <div class="section">
         <div class="container">
         <h3>List Pembayaran</h3>
-                    <table class="table table-hover">
-                    <thead  align="center">
-                        <tr>
-                        <th scope="col">Nama Pegawai
-                        <th scope="col">Tanggal Gajian
-                        <th scope="col">Jumlah Gaji
-                        <th scope="col">
-                        </tr>
-                    </thead>
-                    <?php foreach ($data as $value): ?>
-                        <tr align="center">
-                        <td scope="row"><?php echo $value->id_pegawai ?></td>
-                        <td><?php echo $value->tanggal_gaji?></td>
-                        <td><?php echo $value->jumlah_gaji?></td>
-                        </tr>
-                    <?php endforeach; ?>
-                    </table>
+          <table class="table table-hover">
+            <thead  align="center">
+              <tr>
+              <th scope="col">Nama Pegawai
+              <th scope="col">Tanggal Gajian
+              <th scope="col">Jumlah Gaji
+              <th scope="col">
+              </tr>
+            </thead>
+            <?php foreach ($data as $value): ?>
+              <tr align="center">
+              <td scope="row"><?php echo $value->id_pegawai ?></td>
+              <td><?php echo $value->tanggal_gaji?></td>
+              <td><?php echo $value->jumlah_gaji?></td>
+              </tr>
+            <?php endforeach; ?>
+            </table>
             <br>
         </div>
     </div>
