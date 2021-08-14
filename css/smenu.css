@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.box {
+    background-color: #fff;
+    padding:5px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+}
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+    
+}
+.col-4 {
+    background-color: #fff;
+    width: 25%;
+    height: 320px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.col-4 img {
+    justify-items: center;
+    border-radius: 30px;
+    width: 250px;
+    border:none;
+    height: 200px;
+}
+.col-4 .nama {
+    color: #666;
+    margin-bottom: 5px;
+}
+.col-4 .harga {
+    font-weight: bold;
+    color: #c70039;
+    margin-bottom: 5px;
+}
+.col-4 .stok {
+    border:none;
+}
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
